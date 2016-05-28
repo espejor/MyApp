@@ -1,6 +1,9 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.ejemplo" version="1.0.0">
-  <name>Ejemplo	PhoneGap</name>
+  <name>Ejemplo_PhoneGap</name>
   <description>Ejemplo	de	PhoneGap.</description>
   <author href="https://build.phonegap.com" email="espejor@gmail.com">José Espejo Roig</author>
   <content src="index.html"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="android-minSdkVersion" value="14"/>
+  <access origin="*"/>
 </widget>
